@@ -9,7 +9,7 @@ const WeatherDisplay = ({ weather }) => {
             <h1>Weather App</h1>
             <p>Tempture:<span style={{ color: temp }} >{weather.temperature}</span>
             </p>
-            <p>Condition:{weather.conditions}</p>
+            <p>Condition: {weather.conditions}</p>
 
 
         </div>
